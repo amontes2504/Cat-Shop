@@ -1,13 +1,23 @@
 
 import './App.css';
-import CardList from './componentes/header/body/CardList';
-import Header from './componentes/header/Header';
+import Inicio  from './componentes/Inicio';
+import{Routes,Route,HashRouter}from "react-router-dom";
+import NotFound from './componentes/NotFound';
+import Registro from './componentes/Registro';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-      <CardList/>
+    <div>
+      <HashRouter>
+          <Routes>
+            <Route exact path= '/' element={<Inicio/>}/>
+            <Route exact path= '/registro' element={<Registro/>}/>
+            <Route path= '*' element={<NotFound/>}/>
+
+
+          </Routes>
+      </HashRouter>
+      
     </div>
   );
 }

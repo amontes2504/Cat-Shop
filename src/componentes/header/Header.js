@@ -7,6 +7,7 @@ import SourceIcon from '@mui/icons-material/Source';
 import HomeIcon from '@mui/icons-material/Home';
 import ThreePIcon from '@mui/icons-material/ThreeP';
 import SearchIcon from '@mui/icons-material/Search';
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
@@ -24,25 +25,34 @@ function Header() {
                                 <ThreePIcon />
                                 <a className="nav-link" >Referencias</a>
                             </li>
+
                             <li className="nav-item">
                                 <SourceIcon />
                                 <a className="nav-link" >Recursos</a>
                             </li>
+
+                            
                             <li className="nav-item">
                                 <ContactsIcon />
                                 <a className="nav-link" >Contacto</a>
                             </li>
-                            <li className="nav-item">
-                                <PersonAddAlt1Icon />
-                                <a className="nav-link" >Registrarse</a>
-                            </li>
-                            <li className="nav-item">
+
+                            <Link to='/registro'>
+                                <li className="nav-item">
+                                    <PersonAddAlt1Icon />
+                                    <a className='nav-link' href='#'>
+                                        Registrarse
+                                    </a>
+                                </li>
+                            </Link>
+                            
+                            <li>
                                 <LoginIcon />
                                 <a className="nav-link" >Iniciar Sesion</a>
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
-                            < SearchIcon className='searchIcon'/>
+                            < SearchIcon className='searchIcon' />
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                             <button className="btn btn-outline-success" type="submit">Search</button>
                         </form>

@@ -34,8 +34,8 @@ img{
     text-align: justify;
 }
 .card2 button{
-    /* para centrar el botón */
-    align-items: center;
+
+    align-items: center !important
 }
 
 .precio {

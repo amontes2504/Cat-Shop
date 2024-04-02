@@ -13,18 +13,23 @@ function Footer(){
 
     <div>
         <a href="" class="me-4 text-reset">
+        <i class="bi bi-whatsapp"></i>
            
         </a>
         <a href="" class="me-4 text-reset">
+        <i class="bi bi-facebook"></i>
+             
+        </a>
+        <a href="" class="me-4 text-reset">
+        <i class="bi bi-twitter"></i>
             
         </a>
         <a href="" class="me-4 text-reset">
-            
+        <i class="bi bi-google"></i> 
+
         </a>
         <a href="" class="me-4 text-reset">
-           
-        </a>
-        <a href="" class="me-4 text-reset">
+        <i class="bi bi-github"></i>
             
         </a>
         <a href="" class="me-4 text-reset">
