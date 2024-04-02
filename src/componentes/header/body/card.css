@@ -1,0 +1,44 @@
+.divCards{
+    box-shadow: #11ac97e0 -5px 5px, rgba(32, 185, 139, 0.808) -10px 10px, rgba(15, 228, 217, 0.856) -15px 15px, rgba(16, 196, 209, 0.87) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    display: flex;
+    margin: 2%;
+    padding: 2%;
+    flex-flow: row wrap;    
+}
+.card2{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    padding: 1%;
+    height: max-content;
+    margin: 5px;
+    width: 19%;
+}
+.card2 {
+    transition: transform 0.3s ease;
+}
+
+.card2:hover {
+    transform: rotate(5deg);
+}
+
+img{
+    border-radius: 5px;
+    width: 100%;
+    margin:auto;
+    display: block;    
+}
+.card2 h5{
+    text-align: center;
+}
+.card2 p{
+    text-align: justify;
+}
+.card2 button{
+    /* para centrar el botón */
+    align-items: center;
+}
+
+.precio {
+    text-align: center !important;
+    font-size: 30px !important;
+}
