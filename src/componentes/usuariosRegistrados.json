@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "identificacion": "1089599520",
+        "nombres": "Juan",
+        "apellidos": "Martinez",
+        "email": "david@gmail.com",
+        "direccion": "Mz1Cs12 vela 1 frailes",
+        "telefono": "3216774485",
+        "fechaNacimiento": "2019-06-16",
+        "password": "Paula123*",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-16T18:28:23.897Z"
+    }
+]
