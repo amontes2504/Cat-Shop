@@ -53,6 +53,8 @@ const controller = {
                 telefono: req.body.telefono,
                 fechaNacimiento: req.body.fechaNacimiento,
                 password: req.body.password,
+                departamento:req.body.departamento,
+                ciudad:req.body.ciudad,
                 estado: "activo",
                 rol: "Usuario",
                 fecha_creación: new Date()

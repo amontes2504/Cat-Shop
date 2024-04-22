@@ -20,6 +20,8 @@ export default function Registro() {
     const [passwordError, setPasswordError] = useState(false);
     const [passwordErrorRepeat, setPasswordErrorRepeat] = useState(false);
     const [passComparacion, setPassComparacion] = useState(false);
+    const [depto, setDepartamento] = useState("false"); 
+    const [ciudad, setCiudades] = useState("false");
 
     const form = useRef();
 
@@ -55,6 +57,12 @@ export default function Registro() {
         setPassComparacion(false);
         setPasswordErrorRepeat(false);
     }
+    function departamento(){
+        setDepartamento(false);
+    }
+    function ciudades(){
+        setCiudades(false);
+    }
 
     const [values, setValues] = useState({
         identificacion: "",
@@ -66,6 +74,8 @@ export default function Registro() {
         fechaNacimiento: "",
         password: "",
         passRepeat: "",
+        departamento:"",
+        ciudades:"",
     });
     const handleChange = (e) => {
         //cuando se cambie de Input entonces se guarda la información en la variables.
@@ -147,7 +157,14 @@ export default function Registro() {
         } else if (values.password !== values.passRepeat) {
             setPassComparacion(true);
             errores = true;
-
+        }
+        if (values.departamento === ""){
+            setDepartamento(true);
+            errores=true;
+        }
+        if (values.ciudades === ""){
+            setCiudades(true);
+            errores=true;
         }
         if (errores) {
             return;

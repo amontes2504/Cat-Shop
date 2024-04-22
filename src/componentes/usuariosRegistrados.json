@@ -12,5 +12,61 @@
         "estado": "activo",
         "rol": "Usuario",
         "fecha_creación": "2024-04-16T18:28:23.897Z"
+    },
+    {
+        "id": 2,
+        "identificacion": "1088569987",
+        "nombres": "David",
+        "apellidos": "Garcia",
+        "email": "angelo@gmail.com",
+        "direccion": "Mz1Cs12 vela 1 frailes",
+        "telefono": "3154687895",
+        "fechaNacimiento": "2024-04-10",
+        "password": "Darkusninja@1",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-22T18:46:59.064Z"
+    },
+    {
+        "id": 3,
+        "identificacion": "1089599520",
+        "nombres": "Paula ",
+        "apellidos": "Montes",
+        "email": "paula123@gmail.com",
+        "direccion": "Mz1Cs12 vela 1 frailes",
+        "telefono": "3234163011",
+        "fechaNacimiento": "2004-11-25",
+        "password": "Paula123*",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-22T18:49:26.875Z"
+    },
+    {
+        "id": 4,
+        "identificacion": "108959520",
+        "nombres": "Juan",
+        "apellidos": "Martinez",
+        "email": "david123@gmail.com",
+        "direccion": "Mz1Cs12 vela 1 frailes",
+        "telefono": "3216774485",
+        "fechaNacimiento": "2019-06-16",
+        "password": "Paula123*",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-22T19:15:42.531Z"
+    },
+    {
+        "id": 5,
+        "identificacion": "232223",
+        "nombres": "iuhiyghuy",
+        "apellidos": "iguyguy",
+        "email": "51151@gmail.com",
+        "direccion": "Mz1Cs12 vela 1 frailes",
+        "telefono": "3223232332",
+        "fechaNacimiento": "2024-04-12",
+        "password": "Paula123*",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-22T19:18:17.210Z"
     }
 ]
